@@ -3,11 +3,14 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
+#include <time.h>
 
 int main() {
     int size;
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
+
+    srand(time(NULL));
 
     printf("Введите размер массива: ");
     scanf("%d", &size);
@@ -23,7 +26,18 @@ int main() {
         return 1;
     }
 
-    printf("Размер массива: %d элементов\n", size);
+
+    for (int i = 0; i < size; i++) {
+        array[i] = rand() % 102 - 1;
+    }
+
+
+    printf("Массив случайных чисел: \n");
+    for (int i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
 
     free(array);
 
