@@ -1,0 +1,3 @@
+﻿  Source.c
+E:\Прога\Lb_1\Project1.2_2\Source.c(15,21): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Project1.2_2.vcxproj -> E:\Прога\Lb_1\Project1.2_2\Debug\Project1.2_2.exe
