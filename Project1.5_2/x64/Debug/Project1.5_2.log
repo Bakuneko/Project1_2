@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Oleg\LOAIZ\Lab1\Project1.5_2\Source.c(63,11): warning C4477: "scanf": в строке форматирования "%19s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "int *"
+C:\Oleg\LOAIZ\Lab1\Project1.5_2\Source.c(70,50): warning C4047: функция: "const char *" отличается по уровням косвенного обращения от "int"
+C:\Oleg\LOAIZ\Lab1\Project1.5_2\Source.c(70,37): warning C4024: strcmp: различные типы для формального и фактического параметров 2
+  Project1.5_2.vcxproj -> C:\Oleg\LOAIZ\Lab1\Project1.5_2\x64\Debug\Project1.5_2.exe

@@ -7,14 +7,16 @@
 #include <time.h>
 
 int main() {
-    int size = 10;
+    srand(time(NULL));
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
+    int size;
+    printf("¬ведите размер массива: ");
+    scanf("%d", &size);
     int* array = (int*)malloc(size * sizeof(int));
     if (array == NULL) {
         return 1;
     }
-    srand(time(NULL));
-    SetConsoleOutputCP(1251);
-    SetConsoleCP(1251);
 
     for (int i = 0; i < size; i++) {
         array[i] = rand() % 100;
